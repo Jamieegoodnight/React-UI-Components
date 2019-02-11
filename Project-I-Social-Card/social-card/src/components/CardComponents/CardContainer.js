@@ -1,7 +1,7 @@
 import React from 'react';
 
-import CardBanner from "./CardComponents/CardBanner.js";
-import CardContent from "./CardComponents/CardContent.js";
+import CardBanner from "./CardBanner.js";
+import CardContent from "./CardContent.js";
 import './Card.css';
 
 function CardContainer(){
