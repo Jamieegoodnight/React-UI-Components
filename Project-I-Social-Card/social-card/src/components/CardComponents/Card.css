@@ -1,13 +1,14 @@
 /* All styles for your Card Components live here */
 
 .banner {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 150px;
     width: 80%;
 }
 
 .content {
     margin-top: -5px;
+    margin-right: 10px;
     margin-left: 150px;
 }
 
