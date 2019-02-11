@@ -2,6 +2,7 @@ import React from 'react';
 
 import HeaderContainer from "./components/HeaderComponents/HeaderContainer.js";
 import CardContainer from "./components/CardComponents/CardContainer.js";
+import Footer from "./components/FooterComponents/Footer.js";
 import './App.css';
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <a href="https://www.reactjs.org">
         <HeaderContainer />
         <CardContainer />
+        <Footer />
       </a>  
     </div>
   );
