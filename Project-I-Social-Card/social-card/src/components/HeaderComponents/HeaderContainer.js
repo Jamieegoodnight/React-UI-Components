@@ -7,7 +7,7 @@ import './Header.css';
 
 function HeaderContainer(){
     return (
-        <div>   
+        <div className="header-container">   
             <ImageThumbnail />
             <HeaderTitle />
             <HeaderContent />

@@ -1,1 +1,17 @@
 /* All styles for your header Components live here */
+
+.header-title { 
+    display: flex;
+    margin-top: -150px;
+    margin-left: 150px;
+}
+
+.header-title p {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.header-content {
+    margin-top: -5px;
+    margin-left: 150px;
+}
