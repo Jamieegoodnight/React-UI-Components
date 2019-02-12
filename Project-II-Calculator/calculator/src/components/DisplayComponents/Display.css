@@ -1,0 +1,8 @@
+
+
+.calc-display {
+    color: white;
+    background: black;
+    display: flex;
+    justify-content: flex-end;
+}

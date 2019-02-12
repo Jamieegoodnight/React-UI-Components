@@ -1,13 +1,19 @@
 /* All styles for your Card Components live here */
 
+
+
 .banner {
     margin-top: 10px;
     margin-left: 70px;
-    width: 85%;
+    width: 80.3%;
 }
 
 .content {
-    margin-top: -5px;
+    width: 80%;
+    border-bottom: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    margin-top: -15px;
     margin-right: 10px;
     margin-left: 70px;
 }
