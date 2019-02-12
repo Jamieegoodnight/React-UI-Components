@@ -8,8 +8,15 @@
 
 .act-button {
     width: 300px;
+    height: 100px;
+    font-size: 30px;
+    border: 1px solid black;
 }
 
 .num-button {
     width: 100px;
+    height: 100px;
+    font-size: 30px;
+    border: 1px solid black;
+    
 }
