@@ -2,26 +2,44 @@ import React from 'react';
 import './Button.css';
 
 
-const BasicButton = props => <button className={`basicButtonStyles ${props.buttonStyles}`}> {props.text} </button>;
+const NumButton = props => <button className={`basicButtonStyles ${props.buttonStyles}`}> {props.text} </button>;
 
-BasicButton.defaultProps = {
+NumButton.defaultProps = {
   buttonStyles: "white",
 }
 
 const NumberButton = () => {
     return (
-      <div>
-        <BasicButton text="CLEAR" />
-        <BasicButton text="7" />
-        <BasicButton text="8" />
-        <BasicButton text="9" />
-        <BasicButton text="4" />
-        <BasicButton text="5" />
-        <BasicButton text="6" />
-        <BasicButton text="1" />
-        <BasicButton text="2" />
-        <BasicButton text="3" />
-        <BasicButton text="0" />
+      <div className="num-button">
+        <NumButton 
+        text="%"
+        buttonStyles="red"
+        />
+        <NumButton text="7" />
+        <NumButton text="8" />
+        <NumButton text="9" />
+        <NumButton 
+        text="×"
+        buttonStyles="red" 
+        />
+        <NumButton text="4" />
+        <NumButton text="5" />
+        <NumButton text="6" />
+        <NumButton 
+        text="-"
+        buttonStyles="red"
+         />
+        <NumButton text="1" />
+        <NumButton text="2" />
+        <NumButton text="3" />
+        <NumButton 
+        text="+" 
+        buttonStyles="red"
+        />
+        <NumButton 
+        text="=" 
+        buttonStyles="red"
+        />
       </div>
     );
   }

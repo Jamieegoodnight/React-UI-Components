@@ -2,10 +2,11 @@
 .white {
     background: white;
 }
+.red {
+    background: red;
+}
 .basicButtonStyles {
-    height: 40px;
-    line-height: 20px;
-    width: 150px;
     color: black;
     font-size: 18px;
   }
+
